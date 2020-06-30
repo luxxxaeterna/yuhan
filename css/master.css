@@ -1,0 +1,64 @@
+*{margin: 0;}
+html, body {width: 100%;}
+
+.logo_form{height: 120px;background-color: #cebbb1;text-align: center;}
+.logotext_form{color: #ffffff;font-family: 'Palanquin Dark',
+sans-serif;font-size: 2.6em;font-weight: 200;position: relative;top: 20px;color: #ef9191;}
+
+.logotext_form a:link{text-decoration: none;color: #ee9494;}
+.logotext_form a:visited{text-decoration: none;color: #ee9494;}
+.logotext_form a:active{text-decoration: none;color: #ee9494;}
+.logotext_form a:hover{text-decoration: none;color: #ee9494;}
+
+.menu_form{height: 50.8px;background-color: #ffffff;text-align: center;margin-bottom: 27px;}
+.menutext_form{display: inline-block;margin: 15px 30px 70px 30px;font-size: 1.4em;font-family: 'Palanquin Dark',
+sans-serif;}
+
+.menutext_form a:link{text-decoration: none;color: #ee9494;}
+.menutext_form a:visited{text-decoration: none;color: #ee9494;}
+.menutext_form a:active{text-decoration: none;color: #ee9494;}
+.menutext_form a:hover{text-decoration: none;color: #aeaeae;}
+
+#pr{height: 587px;width: 100%;background-size: cover;}
+
+.p1{background-image: url(../img/bg1.jpg);}
+.p2{background-image: url(../img/bg2.jpg);}
+.p3{background-image: url(../img/bg3.jpg);}
+
+.posi{text-align: center;position: relative;left: 67%; top: 50%;transform: translateX(-50%) translateY(-50%);}
+.posi :hover{transform: scale(1.1);;transition: 1s;}
+.posi2{text-align: center;position: relative;left: 35%; top: 50%;transform: translateX(-50%) translateY(-50%);}
+.posi2 :hover{transform: scale(1.1);transition: 1s;}
+.posi3{text-align: center;position: relative;left: 67%; top: 50%;transform: translateX(-50%) translateY(-50%);}
+.posi3 :hover{transform: scale(1.1);transition: 1s;}
+
+.footer_form{height: 82px;background-color: #cebbb1;}
+.footertext_form{color: #ffffff;font-family: 'Palanquin Dark',
+sans-serif;font-size: 1.1em;font-weight: 100;color: #ffffff;text-align: center;position: relative;top:31%;}
+
+.p11{background-image: url(../img/bgg1);height: 587px;text-align: center; align-content: stretch;margin-bottom: 18px;}
+.p111{text-align: center;}
+
+.p22{background-image: url(../img/bgg1);height: 587px;text-align: center; align-content: stretch;margin-bottom: 89px;}
+.p23{text-align: center;display: inline;margin: 0px 15px 0px 15px;align-content: stretch;position: relative;left: 25%;}
+.p23 :hover{transform: scale(1.2);;transition: 1s;}
+.ptext{text-align: center;display: inline;margin: 0px 22px 0px 22px;align-content: stretch;position: relative;left: 7.9%;margin-bottom: 60px;}
+
+.p24{text-align: center;display: inline;margin: 0px 50px 0px 50px;align-content: stretch;position: relative;left: 33%;}
+.p24 :hover{transform: scale(1.2);;transition: 1s;}
+.p24_1{text-align: center;display: inline-block;margin: 0px 50px 0px 50px;align-content: stretch;position: relative;left: 37%;height: 266px;}
+.p24_1 :hover{transform: scale(1.2);;transition: 1s;}
+.ptext2{text-align: center;display: inline;margin: 30px 10px 0px 10px;align-content: stretch;position: relative;left: 26.9%;}
+.ptext2_1{text-align: center;display: inline;margin: 0px 10px 0px 10px;align-content: stretch;position: relative;left: 30.7%;}
+
+.p25{text-align: center;display: inline-block;margin: -30px 50px 0px 50px;align-content: stretch;position: relative;left: 21.1%;height: 260px;}
+.p25 :hover{transform: scale(1.2);;transition: 1s;}
+.p25_1{text-align: center;display: inline;margin: 0px 50px 0px 50px;align-content: stretch;position: relative;left: 26%;}
+.p25_1 :hover{transform: scale(1.2);;transition: 1s;}
+.ptext3{text-align: center;display: inline;margin: 0px 10px 0px 10px;align-content: stretch;position: relative;left: 28.4%;margin-top: 30px;margin-bottom: 100px;}
+.ptext3_1{text-align: center;display: inline;margin: 0px 10px 0px 10px;align-content: stretch;position: relative;left: 44.1%;margin-top: 30px;margin-bottom: 100px;}
+
+.backup{text-align: center;display: inline-block;height: 10px;align-content: stretch;position: relative;left: 21.1%;}
+
+.bgg3{background-image: url(../img/bgg1);height: 530px;text-align: center; align-content: stretch;}
+.interview{text-align: center;}
