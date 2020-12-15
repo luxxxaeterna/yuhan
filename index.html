@@ -1,38 +1,111 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Annie Atkins</title>
-  <link rel="stylesheet" href="css/master.css">
-  <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@600&display=swap" rel="stylesheet">
-
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!---로고가 위치하는 자리--->
-    <header class="logo_form">
-      <div class="logotext_form">
-        <a href="index.html">Annie Atkins</a>
-        </div>
-        </header>
-        <!---네비게이션이 위치하는 자리--->
-        <nav class="menu_form">
+
+    <header>
+      <nav>
+        <div class="menu">
           <ul>
-            <li class="menutext_form"><a href="p01.html">Introduce</a></li>
-            <li class="menutext_form"><a href="p02.html">Masterpiece</a></li>
-            <li class="menutext_form"><a href="p03.html">Interview</a></li>
-            </<ul>
-            </nav>
-            <!---콘텐츠가 위치하는 자리--->
-            <section>
-             <div id="pr" class="p1"><div class="posi"><a href="p01.html"><img src="img/bg01.png"></a></div></div>
-             <div id="pr" class="p2"><div class="posi2"><a href="p02.html"><img src="img/bg02.png"></a></div></div>
-             <div id="pr" class="p3"><div class="posi3"><a href="p03.html"><img src="img/bg03.png"></a></div></div>
-              </section>
-          <!---푸터정보가 위치하는 자리--->
-          <footer class="footer_form">
-            <div class="footertext_form">
-          Copyright 2020 Jiwon Lee. All Rights Reserved.
-        </footer>
-          </body>
-        </html>
-            </ul>
+            <li><a onclick="fnMove('1')">graphic</a></li>
+            <li><a onclick="fnMove('2')">editorial</a></li>
+            <li><a onclick="fnMove('3')">branding</a></li>
+            <li><a onclick="fnMove('4')">UI/UX</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <!--키비주얼 부문-->
+      <div class="keyvisual">
+            <img src="img/keyvisual_bg.png" alt="lee jiwon portfolio">
+          </div>
+        </div>
+      </div>
+
+      <!--프로필 부문-->
+      <div class="profile">
+        <div class="profile_wrap">
+          <div class="profile_01" data-aos="fade-up" data-aos-duration="1800"><img src="img/04_01_txt.png" alt="이름/연락처"></div>
+          <div class="profile_02" data-aos="fade-up" data-aos-duration="1800"><img src="img/04_02_txt.png" alt="education"></div>
+          <div class="profile_03" data-aos="fade-up" data-aos-duration="1800"><img src="img/04_03_txt.png" alt="works"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 1-->
+      <div class="pf_1" id="anchor1">
+        <div class="pf_wrap">
+          <div class="pf_movieposters"><img src="img/pf_movieposters.png" alt="영화 포스터"></div>
+          <div class="movieposters"data-aos="fade" data-aos-duration="1100"><img src="img/movieposters.png" alt="영화 포스터"></div>
+          <div class="pf_label"><img src="img/pf_label.png" alt="라벨 디자인"></div>
+          <div class="label" data-aos="fade" data-aos-duration="1100"><img src="img/label.png" alt="라벨 디자인"></div>
+          <div class="pf_giftcards"><img src="img/pf_giftcards.png" alt="이벤트 카드"></div>
+          <div class="giftcards"data-aos="fade" data-aos-duration="1100"><img src="img/giftcards.png" alt="이벤트 카드"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 2-->
+      <div class="pf_2" id="anchor2">
+        <div class="pf_wrap">
+          <div class="pf_newspaper"><img src="img/pf_newspaper.png" alt="신문제호 디자인"></div>
+          <div class="newspaper" data-aos="fade" data-aos-duration="1100"><img src="img/newspaper.png" alt="신문제호 디자인"></div>
+          <div class="pf_leaflet"><img src="img/pf_leaflet.png" alt=""></div>
+          <div class="leaflet" data-aos="fade" data-aos-duration="1100"><img src="img/leaflet.png" alt=""></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 3-->
+      <div class="pf_3" id="anchor3">
+        <div class="pf_wrap">
+          <div class="pf_branding"><img src="img/pf_branding.png" alt=""></div>
+          <div class="glossier1" data-aos="fade" data-aos-duration="1100"><img src="img/glossier1.png" alt=""></div>
+          <div class="glossier2" data-aos="fade" data-aos-duration="1100"><img src="img/glossier2.png" alt=""></div>
+          <div class="glossier3" data-aos="fade" data-aos-duration="1100"><img src="img/glossier3.png" alt=""></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 4-->
+      <div class="pf_4" id="anchor4">
+        <div class="pf_wrap">
+          <div class="pf_uiux1"><img src="img/pf_uiux1.png" alt=""></div>
+          <div class="arianagrande" data-aos="fade" data-aos-duration="1100"><img src="img/arianagrande.png" alt=""></div>
+          <div class="pf_uiux2"><img src="img/pf_uiux2.png" alt=""></div>
+          <div class="sment" data-aos="fade" data-aos-duration="1100"><img src="img/sment.png" alt=""></div>
+      </div>
+      </div>
+    </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/footer.png" alt="footer"></span>
+
+      </div>
+    </footer>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>
